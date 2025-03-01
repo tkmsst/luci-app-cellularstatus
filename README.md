@@ -4,7 +4,7 @@ Cellular information for OpenWrt LuCi
 
 ## How-to add repositry and compile package
 
-Add next line to feeds.conf.default in OpenWrt Buildroot
+Add next line to [feeds.conf.default](https://github.com/openwrt/openwrt/blob/main/feeds.conf.default) in OpenWrt Buildroot
 
 ```
 src-git cellularstatus https://github.com/tkmsst/luci-app-cellularstatus.git
